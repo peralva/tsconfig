@@ -1,0 +1,40 @@
+{
+	"author": "Bruno Peralva <brunoperalva@hotmail.com>",
+	"bugs": {
+		"url": "https://github.com/peralva/tsconfig/issues"
+	},
+	"description": "TypeScript Configuration",
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	},
+	"exports": "./tsconfig.json",
+	"files": [
+		"tsconfig.json"
+	],
+	"homepage": "https://github.com/peralva/tsconfig#readme",
+	"keywords": [
+		"config",
+		"configuration",
+		"ts",
+		"tsconfig",
+		"typescript"
+	],
+	"license": "MIT",
+	"name": "@peralva/tsconfig",
+	"prettier": {
+		"singleQuote": true,
+		"useTabs": true
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peralva/tsconfig.git"
+	},
+	"scripts": {
+		"build": "npx tsc"
+	},
+	"version": "1.0.0"
+}
